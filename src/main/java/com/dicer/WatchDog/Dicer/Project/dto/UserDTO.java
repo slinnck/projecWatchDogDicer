@@ -15,6 +15,8 @@ import lombok.Setter;
 @NoArgsConstructor
 public class UserDTO {
 
+    private Integer id;
+
     @JsonProperty("name_user")
     private String nameUser;
 

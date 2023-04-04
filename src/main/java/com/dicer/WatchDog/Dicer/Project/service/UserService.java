@@ -15,4 +15,6 @@ public interface UserService {
     UserDTO getUserByTaxpayernumber(HttpHeaders headers);
 
     List<UserDTO> getAllUsers();
+
+    String updateUser(HttpHeaders headers);
 }
